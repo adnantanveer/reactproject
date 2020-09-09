@@ -1,0 +1,380 @@
+body {
+  margin: 0;
+  font-family: Rubrik;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.main-wraper {
+  background: url("../src/images/Group\ 26781.png");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-wraper {
+  margin-top: 90px;
+}
+
+.home .cardhead h4 {
+  font: normal normal bold 27px/35px Rubrik;
+  letter-spacing: 0px;
+  color: #081576;
+  opacity: 1;
+}
+.home .cardhead p {
+  font: normal normal normal 18px/42px Rubrik;
+  letter-spacing: 0px;
+  color: #494949;
+  opacity: 0.71;
+}
+
+.home .pckgename {
+  font-size: 15px;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.home .homeinpt {
+  height: 58px;
+  background: #e2f7ff 0% 0% no-repeat padding-box;
+  border: 1px solid #009bda;
+  opacity: 1;
+}
+.home .homeinptdis {
+  height: 58px;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 0.26;
+}
+
+.home .picklocation {
+  font-size: 11px;
+  letter-spacing: 0px;
+  color: #494949;
+  opacity: 0.8;
+}
+.home .packwght,
+.chsedel {
+  font-size: 15px;
+
+  color: #000000;
+}
+
+.home .custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #d6df21;
+  background-color: #d6df21;
+}
+.home .entramt {
+  height: 58px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 0.26;
+}
+.anyins {
+  height: 91px;
+  background: #c9f0ff 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 0.35;
+  display: flex;
+  padding-left: 24px;
+  margin-right: 22px;
+  align-items: center;
+  font: normal normal normal 15px/42px Rubrik;
+}
+
+.home .terms p {
+  font: normal normal normal 13px/16px Rubrik;
+  letter-spacing: 0px;
+  color: #494949;
+}
+.home .addpackge {
+  background: #d6de23 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  padding: 21px 34px;
+  font-weight: 600;
+}
+
+.home .cnforder {
+  background: #24aae1 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  color: #ffff;
+  font-weight: 600;
+  max-width: 211px;
+  width: 100%;
+}
+
+.doescard h4 {
+  font: normal normal normal 18px/42px Rubrik;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.doescard hr {
+  border: 1px dotted gray;
+  opacity: 0.4;
+}
+.doescard .headlabel {
+  font-size: 13px;
+  font-weight: bold;
+  color: #000000;
+}
+.doescard p {
+  font: normal normal normal 11px/16px Rubrik;
+  letter-spacing: 0px;
+  color: #494949;
+}
+
+.modallogin,
+.modalsign .modal-head-sign {
+  background: #e2f7ff 0% 0% no-repeat padding-box;
+}
+.MuiDialogTitle-root {
+  padding: 0 !important;
+}
+
+.modal-head-sign h2,
+.modal-head-login h2 {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0.51px;
+  color: #081576;
+  opacity: 1;
+  font: normal normal bold 40px/51px Rubrik;
+}
+.signpbus {
+  letter-spacing: 0.3px;
+  color: #ffffff !important;
+  background: #009bda 0% 0% no-repeat padding-box !important;
+  padding: 18px 28px !important;
+}
+.signpclie {
+  letter-spacing: 0.3px;
+  background: #ffffff 0% 0% no-repeat padding-box !important;
+  padding: 18px 28px !important;
+}
+.signup-cont h3,
+.loginpop-cont h3 {
+  font: normal normal bold 25px/32px Rubrik;
+  letter-spacing: 0px;
+  color: #081576;
+}
+.loginpop-cont input,
+.signup-cont input {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  height: 58px;
+  opacity: 0.76;
+}
+.succsesokay,
+.signup-cont .signup {
+  background: #24aae1 0% 0% no-repeat padding-box !important;
+  box-shadow: 0px 3px 6px #00000029;
+  padding: 13px 80px !important;
+  color: #ffffff;
+  font: normal normal bold 14px/19px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff !important;
+  text-transform: uppercase;
+}
+.closeicon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.succesmodal .succeshead {
+  font: normal normal bold 30px/38px Rubrik;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.succesmodal .suc-ccont {
+  max-width: 359px;
+
+  text-align: center;
+  font: normal normal medium 14px/23px Rubrik;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.65;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #04a9f4;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #04a9f4;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #000;
+}
+
+.MuiDialogContent-root {
+  overflow-y: unset !important;
+}
+
+.searchmodal-head {
+  background: #e4ef00 0% 0% no-repeat padding-box;
+}
+.searchmodal-head h3 {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #081576;
+}
+.search .form-control {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 0.76;
+  height: 58px;
+  padding-left: 35px;
+}
+.serchbymap {
+  font: normal normal medium 15px/33px Rubrik;
+  letter-spacing: 0px;
+  color: #494949;
+  margin: 0;
+
+  padding: 0;
+}
+.search {
+  position: relative !important;
+}
+.search .icon-search {
+  position: absolute;
+  left: 10px;
+  top: 16px;
+}
+
+.orderSummary h3 {
+  font-size: 27px;
+  font-weight: 600;
+  color: #081576;
+}
+
+.orderSummary .headtText {
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.65;
+}
+
+.orderSummary .detail-lbel {
+  font: normal normal medium 14px/42px Rubrik;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.4;
+}
+
+.orderSummary .details {
+  font: normal normal medium 16px Rubrik;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.99;
+}
+.paymentMethodCard h3 {
+  font: normal normal 600 18px Rubrik;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.paymentMethodCard hr {
+  border: 1px dotted #04a9f4;
+  opacity: 0.3;
+}
+
+.paymentMethod {
+  border: 1px solid #ebebeb;
+  border-radius: 17px;
+  opacity: 1;
+}
+
+.paymentMethod .paymentimg {
+  border-right: 1px solid #ebebeb;
+  padding: 19px 12px;
+}
+.paymentimg img {
+  width: 100%;
+}
+
+.paymenttext {
+  padding: 19px 12px;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.paymentMethod .custom-control-label::before {
+  position: absolute;
+  top: -1px;
+  left: -29px;
+  display: block;
+  width: 26px;
+  height: 26px;
+  pointer-events: none;
+  content: "";
+  border-radius: 50% !important;
+  background-color: #fff;
+  border: #adb5bd solid 1px;
+}
+
+.ins {
+  background: #f8fdff 0% 0% no-repeat padding-box;
+  border: 1px solid #e2f7ff;
+  border-radius: 9px;
+  font: normal normal normal 11px/42px Rubrik;
+  letter-spacing: 0px;
+  color: #000000;
+  padding-left: 10px;
+  opacity: 0.66;
+}
+
+.invoicedetail h4 {
+  font: normal normal 600 18px Rubrik;
+  letter-spacing: 0px;
+  color: #000000;
+  margin-top: 15px;
+}
+
+.delevryfee {
+  font: normal normal medium 13px/18px Rubrik;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.99;
+}
+.delvalue {
+  font: normal normal 600 15px/18px Rubrik;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.99;
+}
+
+.topay {
+  background: #24aae1 0% 0% no-repeat padding-box !important;
+  color: #fff !important;
+  padding: 14px 16px;
+}
+.topay span {
+  font-size: 14px;
+  opacity: 0.99;
+}
+.topay label {
+  font: normal normal 600 15px Rubrik;
+  opacity: 0.99;
+}
